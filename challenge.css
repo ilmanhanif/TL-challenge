@@ -3,21 +3,30 @@ body {
     color: white;
 }
 
-.item1 {
+.logo {
     width: 50px;
 }
 
-.item2 {
+.item1 {
     color: black;
     font-size: xx-large;
 }
 
-.item3 {
+.item2 {
     color: black;
+    margin-top: 10px;
+    margin-right: 17px;
 }
-
 .flex-container {
     display: flex;
-    background-color: white;
     justify-content: space-between;
+    background-color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+    /* flex-wrap: wrap; */
 }
